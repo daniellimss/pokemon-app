@@ -1,0 +1,18 @@
+#login-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  overflow-y: auto;
+  gap: 10px;
+}
+
+#login-screen form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}

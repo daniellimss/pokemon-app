@@ -1,0 +1,113 @@
+#poke-stats {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#poke-stats img {
+  max-height: 300px;
+  max-width: 300px;
+  flex: 1;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#poke-stats .poke-types {
+  display: flex;
+  gap: 10px;
+}
+
+#poke-stats .poke-type {
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid white;
+}
+
+.bug {
+  background-color: rgb(148, 173, 36);
+}
+
+.dark {
+  background-color: black;
+}
+
+.dragon {
+  background-color: rgb(132, 83, 236);
+}
+
+.electric {
+  background-color: rgb(233, 178, 0);
+}
+
+.fairy {
+  background-color: rgb(244, 139, 188);
+}
+
+.fighting {
+  background-color: rgb(110, 33, 11);
+}
+
+.fire {
+  background-color: rgb(236, 110, 26);
+}
+
+.flying {
+  background-color: rgb(159, 188, 255);
+}
+
+.ghost {
+  background-color: rgb(77, 3, 145);
+}
+
+.grass {
+  background-color: rgb(53, 172, 53);
+}
+
+.ground {
+  background-color: #e0c068;
+}
+
+.ice {
+  background-color: #98d8d8;
+}
+
+.normal {
+  background-color: #a8a878;
+}
+
+.poison {
+  background-color: rgb(150, 2, 166);
+}
+
+.psychic {
+  background-color: #f85888;
+}
+
+.rock {
+  background-color: #b8a038;
+}
+
+.steel {
+  background-color: rgb(164, 164, 164);
+}
+
+.water {
+  background-color: #4a7ef7;
+}
+
+.edit-poke-name {
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+.field-css {
+  width: 15rem;
+  margin: 0.5rem;
+}

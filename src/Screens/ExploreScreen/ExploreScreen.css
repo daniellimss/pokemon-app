@@ -1,0 +1,45 @@
+.explore-header {
+  width: 100%;
+}
+
+.explore-map {
+  display: flex;
+  flex: 1 1 auto;
+  margin-top: 10px;
+  position: relative;
+  min-height: 0;
+  width: 100%;
+}
+
+.explore-map #map {
+  width: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  object-fit: cover;
+}
+
+.explore-map .user-button {
+  position: absolute;
+  top: 40%;
+  left: 49%;
+  width: calc((100vw * 100vh) * 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.explore-map .user-button img {
+  width: 100%;
+}
+
+.explore-map .user-button h3 {
+  background-color: white;
+  font-size: 13px;
+  padding: 2px 5px;
+  margin-top: 3px;
+  border-radius: 6px;
+}

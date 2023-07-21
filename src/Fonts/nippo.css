@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Nippo";
+  src: url("./Nippo-Extralight.woff2") format("woff2"),
+    url("./Nippo-Extralight.woff") format("woff"),
+    url("./Nippo-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nippo";
+  src: url("./Nippo-Light.woff2") format("woff2"),
+    url("./Nippo-Light.woff") format("woff"),
+    url("./Nippo-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nippo";
+  src: url("./Nippo-Regular.woff2") format("woff2"),
+    url("./Nippo-Regular.woff") format("woff"),
+    url("./Nippo-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nippo";
+  src: url("./Nippo-Medium.woff2") format("woff2"),
+    url("./Nippo-Medium.woff") format("woff"),
+    url("./Nippo-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nippo";
+  src: url("./Nippo-Bold.woff2") format("woff2"),
+    url("./Nippo-Bold.woff") format("woff"),
+    url("./Nippo-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}

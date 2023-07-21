@@ -1,0 +1,44 @@
+#user-search {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#user-search form {
+  width: 100%;
+}
+
+#user-search form input {
+  width: 100%;
+}
+
+#user-search #user-search-results {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+#user-search #user-search-results #user-search-profile {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  background-color: #2d71b7;
+  color: white;
+}
+
+#user-search #user-search-results .user-poke {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-left: 20px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+}
